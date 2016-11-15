@@ -1,5 +1,5 @@
-# Korean Translation for Openchain Curriculum Slide version 1
-- Copyright (c) 2016 Haksung Jang
+## Korean Translation for Openchain Curriculum Slide version 1
+- Copyright (c) 2016 Haksung Jang (hakssung@gmail.com)
 
 ### original document
 - https://wiki.linuxfoundation.org/openchain/curriculum
