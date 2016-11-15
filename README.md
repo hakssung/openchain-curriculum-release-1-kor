@@ -6,6 +6,7 @@ https://wiki.linuxfoundation.org/_media/openchain/openchain-curriculum-release-1
 
 # License
 Copyright (c) 2016 Haksung Jang
+
 Creative Common Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/legalcode) 
 
 # Contents
