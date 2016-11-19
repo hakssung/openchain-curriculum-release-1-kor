@@ -50,7 +50,7 @@ Common scenarios include:
 > Component를 어떻게 사용할 것인지?
 
 > 일반적인 시나리오는 다음과 같다: 
-- 포함
+- 결합 (Incorporation)
 - Linking
 - 수정 (Modification)
 - 변형 (Translation)
@@ -68,5 +68,7 @@ Relevant terms include:
 - Adapting
 - Inserting
 
+> 결합 (Incorporation)
+개발자는 FOSS Component의 일부를 Software 제품에 복사 할 수 있습니다.
 
 
