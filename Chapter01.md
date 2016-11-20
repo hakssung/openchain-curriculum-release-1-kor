@@ -1,3 +1,5 @@
+# Chapter 1. What is “Intellectual Property”?
+
 ## What is “Intellectual Property”?
 
 - Copyright: protects original works of authorship
