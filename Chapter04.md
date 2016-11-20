@@ -50,10 +50,10 @@ Common scenarios include:
 > Component를 어떻게 사용할 것인지?
 
 > 일반적인 시나리오는 다음과 같다: 
-- 결합 (Incorporation)
+- 통합 (Incorporation)
 - Linking
 - 수정 (Modification)
-- 변형 (Translation)
+- 번역 (Translation)
 
 ## Incorporation
 
@@ -68,7 +68,122 @@ Relevant terms include:
 - Adapting
 - Inserting
 
-> 결합 (Incorporation)
-개발자는 FOSS Component의 일부를 Software 제품에 복사 할 수 있습니다.
+> 통합 (Incorporation)
+개발자는 FOSS Component의 일부를 Software 제품에 복사 할 수 있다. 
 
+> 관련 방식은 다음과 같다.:
+- 통합 (Integrating)
+- 병합 (Merging)
+- 붙여넣기 (Pasting)
+- 개작 (Adapting)
+- 삽입 (Inserting)
 
+## Linking
+A developer may link or join a FOSS component with your software product. 
+![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/linking.png)
+
+Relevant terms include:
+- Static/Dynamic Linking
+- Pairing
+- Combining
+- Utilizing
+- Packaging
+- Creating interdependency
+
+> Linking
+개발자는 FOSS Component를 Software 제품에 Link 혹은 Join할 수 있다. 
+
+> 관련 방법은 다음과 같다: 
+- 정적/동적 Linking
+- Pairing
+- 결합 (Combining)
+- 활용 (Utilizing)
+- Packaging
+- 상호 의존성 만들기
+
+## Modification
+A developer may make changes to a FOSS component, including:
+
+- Adding/injecting new code into the FOSS component
+- Fixing, optimizing or making changes to the FOSS component
+- Deleting or removing code
+![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/modification.png)
+
+> 수정
+
+> 개발자는 다음과 같이 FOSS Component를 수정할 수 있다. 
+- FOSS Component에 새로운 Code 추가/삽입
+- FOSS Component의 수정, 최적화 혹은 변경
+- Code 삭제 혹은 제거
+
+## Translation
+A developer may transform the code from one state to another.
+![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/translation.png)
+
+Examples include:
+- Translating Chinese to English 
+- Converting C++ to Java 
+- Compiling VHDL in a mask or net list
+- Compiling into binary
+
+> 번역
+
+> 개발자는 Code를 한 상태에서 다른 상태로 변환할 수 있다. 
+
+> 예: 
+- 중국어에서 영어로 번역
+- C++에서 Java로 변환
+- Mask나 Net List에서 VHDL Compiling
+- Binary로 Compiling
+
+## Development Tools
+
+Development tools may perform some of these operations behind the scenes.
+
+![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/developmenttools.png)
+
+For example, a tool may inject portions of its own code into output of the tool.
+
+> 개발 도구
+
+> 개발 도구는 내부적으로 이러한 동작 중 일부를 수행할 수 있다. 
+
+> 예를 들어, 도구는 도구의 산출물내에 자체 Code의 일부를 추가시킬 수도 있다. 
+
+## How is the FOSS component distributed?
+
+- Who receives the software?
+  - Customer/Partner
+  - Community project
+
+- What format for delivery?
+  - Source code delivery
+  - Binary delivery
+  - Pre-loaded onto hardware
+
+> FOSS Component는 어떻게 배포되는가?
+- Software를 받는 사람은 누구인가?
+  - 고객/파트너
+  - Community Project
+- 전달 형태는 무엇인가? 
+  - Source Code 전달
+  - Binary 전달
+  - Hardware에 Pre-loaded
+
+## Check Your Understanding
+- What information is helpful in understanding how software is licensed?
+- What information helps identify who is licensing the software?
+- What is incorporation?
+- What is modification?
+- What is linking?
+- What is translation?
+- What factors are important in assessing a distribution?
+
+> Check Your Understanding
+- Software가 어떻게 License되었는지에 대해 이해하는데 도움이 되는 정보는 무엇인가? 
+- 누가 Software에 License를 부여하는지 확인하기 위해 도움이 되는 정보는 무엇인가?
+- 통합 (incorporation)이란?
+- 수정 (modification)이란?
+- Linking이란?
+- 번역 (translation)이란?
+- 배포에 대해 검토할 때 중요한 요소는 무엇인가? 
