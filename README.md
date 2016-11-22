@@ -6,7 +6,7 @@
 - https://wiki.linuxfoundation.org/_media/openchain/openchain-curriculum-release-1.pptx
 
 ### License
-- Creative Common Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/legalcode) 
+- Korean Translation by Haksung Jang (hakssung@gmail.com) is licensed under CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
 ### Contents
 1. What is “Intellectual Property”?
