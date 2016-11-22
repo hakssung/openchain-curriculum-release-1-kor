@@ -15,16 +15,16 @@
 
 
 > “Intellectual Property”란?
--  Copyright : 저자의 원저작물을 보호
+-  저작권: 저자의 원저작물을 보호
   - (근본적인 아이디어가 아닌) 표현을 보호
-  - Software, 책, 음원, 반도체 마스크
+  - Software, 책, 시청각 자료, 반도체 마스크
 - Patents : 새롭고, 유용하며, 너무 뻔하지 않은 (non-obvious) 발명 
-  - 혁신을 장려하기 위한 제한적인 독점
+  - 혁신을 장려하기 위한 제한 독점
 - 영업 비밀 : 기밀의 가치 있는 정보를 보호
-- 상표권 : 상품의 출처를 나타내는 상표(word, logos, slogans, color, etc.)를 보호
+- 상표 : 품의 출처를 나타내는 상표(단어, 로고, 슬로건, 색상 등)를 보호
   - 소비자와 브랜드 보호; 소비자를 혼란스럽게 하거나 상표 가치 하락하는 것을 방지하기 위함
 
-> **이 장에서는 FOSS compliance와 주로 관련이 있는 copyright과 patent를 중점으로 설명한다.**
+> **이 장에서는 FOSS Compliance와 주로 관련이 있는 저작권과 특허를 중점으로 설명한다.**
 
 ## Copyright concepts in software
 
@@ -34,11 +34,11 @@
 - The copyright owner only has control over the work that he or she created, not someone else’s independent creation
 
 
-> Software에서의 Copyright 개념
-- 기본 개념 : Copyright은 창작 저작물을 보호한다. 
-- Copyright은 일반적으로 도서, 영화, 그림, 음악, 지도와 같은 저작물에 적용된다. 
-- Software는 Copyright에 의해 보호된다. 기능(기능은 특허에 의해 보호)이 아닌 표현이 보호된다. 
-- 오직 저작권자만이 자신의 (다른 사람에 의해 독립적으로 생성된 것이 아닌) 저작물을 제어할 수 있다. 
+> Software에서의 저작권 개념
+- 기본 규칙: 저작권으로 창작 저작물을 보호한다 
+- 저작권은 일반적으로 도서, 영화, 그림, 음악, 지도와 같은 문학 작품에 용된다. 
+- Software는 저작권에 의해 보호되며 기능(기능은 특허에 의해 보호)이 아닌 표현 (세부 구현 내용의 창의성) 이 보호된다. 
+- 저작권 소유자는 자신이 만든 저작물에 대해서만 통제권을 갖는다. (타인의 독립적인 저작물에 대해서는 통제권이 없음) 
 
 ## Copyright rights most relevant to software
 
@@ -50,14 +50,14 @@
 
 **Note: The interpretation of what constitutes a “derivative work” or a “distribution” is subject to debate in the FOSS community and within FOSS legal circles**
 
-> Software 측면에서 가장 중요한 Copyright 권리
-- Software를 재생산할 수 있는 권리 - 복제
-- 파생저작물을 생성할 수 있는 권리 - 수정
+> Software와 가장 관련 있는 저작권 권리
+- Software를 복제할 수 있는 권리 - 복제
+- 파생저작물을 만들 수 있는 권리 - 수정
   - '파생저작물'이란 어떠한 한 저작물을 기반으로 만들었지만, 충분히 독창적인 부분이 추가되어서, 단지 복사가 아닌 저자의 새로운 저작물로 간주할 수 있는 것을 의미한다. (US law에서 사용하는 용어임에 유의)
 - 배포할 수 있는 권리
-  - 일반적으로 software 일부를 복사하여 source code 혹은 binary form으로 다른 주체(개인 혹은 회사/기관 밖의 기관)에 제공하는 것을 배포라고 본다. 
+  - 일반적으로 Software 일부를 복사하여 Source Code 혹은 Binary Form으로 다른 주체(개인 혹은 회사/기관 밖의 기관)에 제공하는 것을 배포라고 본다. 
 
->**Note: "파생저작물"이나 "배포"가 무엇인지에 대한 해석은 FOSS community나 FOSS 법률가들 사이에서 논의의 대상이다**
+>**참고: "파생저작물"이나 "배포"가 무엇인지에 대한 해석은 FOSS community나 FOSS 법률가들 사이에서 논의의 대상이다**
 
 ## Patent concepts in software
 - Patents protect functionality - this can include a method of operation, such as a computer program
@@ -69,7 +69,7 @@
 - 특허는 기능을 보호함 - Computer Program과 같은 동작 방법 등
   - 추상적인 아이디어나 자연법칙을 보호하지는 않는다. 
 - 특허 소유권자는 누군가 독창적으로 만든 것과 상관없이 해당 기능의 수행을 금지할 권리가 있다. 
-- 해당 기술을 사용하고자 한다면 특허 license (해당 기술을 사용, 제작, 판매, 수입할 수 있는 권리)를 취득해야 할 것이다. 
+- 해당 기술을 사용하고자 한다면 특허 License (해당 기술을 사용, 제작, 판매, 수입할 수 있는 권리)를 취득해야 한. 
 
 ## Licenses
 - A "license" is the way a copyright or patent holder gives permission or rights to someone else
