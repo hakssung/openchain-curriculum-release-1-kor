@@ -69,7 +69,7 @@
 - 특허는 기능을 보호함 - Computer Program과 같은 동작 방법 등
   - 추상적인 아이디어나 자연법칙을 보호하지는 않는다. 
 - 특허 소유권자는 누군가 독창적으로 만든 것과 상관없이 해당 기능의 수행을 금지할 권리가 있다. 
-- 해당 기술을 사용하고자 한다면 특허 License (해당 기술을 사용, 제작, 판매, 수입할 수 있는 권리)를 취득해야 한. 
+- 해당 기술을 사용하고자 한다면 특허 License (해당 기술을 사용, 제작, 판매, 수입할 수 있는 권리)를 취득해야 한다. 
 
 ## Licenses
 - A "license" is the way a copyright or patent holder gives permission or rights to someone else
@@ -84,14 +84,14 @@
 
 > License
 - "License"는 저작권자, 특허권자가 사용허가 혹은 권리를 부여하는 것을 말한다. 
-- License는 다음 사항들에 따라 범위가 달라질 수 있다. 
+- License는 다음 사항들에 따라 제한 될 수 있다. 
   - 허용되는 사용 형태 (배포, 파생저작물 제작)
   - 독점 혹은 비독점 조항
   - 관할 지역
   - 영구적 혹은 시간제한
 - License는 권한을 부여하기 위한 조건을 갖고 있다. 즉, 해당 조건을 준수하는 경우에만 License를 가질 수 있다. 
-  - 예) 고지, 재배포 시 동일 License 적용
-- 보증, 면책, 지원, 유지 보수 등과 관련하여 계약상의 조항이 포함되는 경우도 있다. 
+  - 예, 저작자 표시 제공, 동일 License 적용
+- 보증, 면책, 지원, 유지 보수 등과 관련하여 계약상의 조항이 포함되는 경우도 있다.
 
 ## Check Your Understanding
 - What type of material does copyright law protect?
@@ -101,9 +101,9 @@
 - If you independently develop your own software, is it possible that you might need a copyright license from a third party for that software? A patent license?
 
 > Check Your Understanding
-- 저작권법이 어떤 유형의 자료를 보호합니까?
-- Software에 대해 가장 중요한 Copyright 권리는 무엇입니까?
-- Software가 특허의 대상이 될 수 있습니까?
-- 특허는 특허 소유자에게 권리를 부여합니까?
-- 독자적으로 개발한 Software에 대해 제3자로부터 Copyright License 취득이 필요할 수도 있습니까? Patent License는?
+- 저작권법은 어떤 유형의 자료를 보호하는가?
+- Software에서 가장 중요한 저작권 권리는 무엇인가?
+- Software가 특허의 대상이 될 수 있는가?
+- 특허는 특허 소유자에게 권리를 부여하는가?
+- 독자적으로 개발한 Software에 대해 제3자로부터 저작권 License 취득이 필요할 수도 있는가? Patent License는?
 
