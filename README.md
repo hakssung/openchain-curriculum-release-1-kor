@@ -22,5 +22,5 @@
 3. FOSS Compliance 소개
 4. FOSS Review를 위한 핵심 Software 개념
 5. FOSS Review 수행
-6. End to End Compliance Management (Example Process)
+6. End to End Compliance Management (Process )
 7. Compliance 위험 방지
