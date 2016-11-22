@@ -6,7 +6,7 @@
 - One popular set of FOSS licenses are those approved by the Open Source Initiative (OSI) based on their Open Source Definition (OSD). A complete list of OSI-approved FOSS licenses is available at http://www.opensource.org/licenses/
 
 > FOSS License
-- FOSS(Free and Open Source Software) License는 일반적으로 공개한 소스 코드에 대해 수정, 재배포를 허용하는 조항을 갖는다. 
+- FOSS(Free and Open Source Software) License는 일반적으로 수정 및 재배포를 허용하는 조건하에 Source Code를 공개한다.  
 - FOSS License는 고지 의무, Copyright 보존, 소스 코드 제공을 위한 약정서 제공과 같은 조건을 갖고 있기도 하다.  
 - OSI (Open Source Initiative)는 OSD(Open Source Definition)를 정해놓고, 이에 부합하는 FOSS License를 승인해준다. OSI-approved FOSS License는 http://www.opensource.org/licenses/ 에서 확인할 수 있다. 
 
@@ -19,7 +19,7 @@
 - Other examples: MIT, Apache-2.0
 
 > Permissive FOSS Licenses
-- Permissive FOSS Licenses - 주로 제약이 아주 적은 FOSS License를 말한다. 
+- Permissive FOSS Licenses - 주로 제약이 아주 적은 FOSS License를 설명하기 위해 자주 사용되는 용어 
 - 예: BSD-3-Clause
   - BSD License는 저작권 고지와 License의 보증부인을 유지하는 조건으로 제한 없는 재배포를 허락하는 Permissive License의 한 예이다. 
   - 이 License는 파생저작물의 홍보에 별도의 승낙 없이 기여자 이름의 사용하는 것을 제한하는 조항을 포함한다. 
@@ -36,13 +36,13 @@ _"You must cause any work that you distribute or publish, that in whole or in pa
 - Examples: all versions of GPL, LGPL, AGPL, MPL, CDDL 
 
 > License 상호주의 & Copyleft License
-- 어떤 License는 파생저작물 (혹은 동일 File, 동일 Program이나 Boundary 내 Software) 배포 시 원저작물과 같은 조항으로 배포할 것을 요구한다. 
+- 어떤 License는 파생저작물 (혹은 동일 File, 동일 Program이나 다른 Boundary 내 Software) 배포 시 원저작물과 같은 조항으로 배포할 것을 요구한다. 
   - 이러한 원리는 "Copyleft", "상호주의", "유전" 효과라고 불린다. 
 - GPL-2.0 내 상호주의 조항 예: 
 
 > _"You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed...under the terms of this License."_
 
-> 예: GPL, LGPL, AGPL, MPL, CDDL의 각 version
+> 예: GPL, LGPL, AGPL, MPL, CDDL의 모든 version
 
 
 ## Proprietary License
@@ -52,10 +52,10 @@ _"You must cause any work that you distribute or publish, that in whole or in pa
 - FOSS developers often use the term "proprietary license" to describe a commercial non-FOSS license
 
 > Proprietary License
-- Proprietary Software License (or 상용 License or EULA)는 Software의 사용, 수정, 배포에 제한을 하고 있다. 
+- Proprietary Software License (or 상용 License or EULA)는 Software의 사용, 수정, 배포에 대한 제한을 갖고 있다. 
 - Proprietary License에는 비용 지급, License 금액 등에 대한 내용이 포함되기도 한다. 
-- Proprietary License는 Vendor 별로 각각 다르다 - Vendor의 수만큼 다른 Proprietary License가 있을 것이고, 이를 사용하기 위해서는 각각 검토가 필요하다. 
-- FOSS 개발자들은 상용 non-FOSS License를 "Proprietary License"라고 지칭하기도 한다. 
+- Proprietary License는 Vendor 별로 고유하다.  Vendor의 수만큼 다른 Proprietary License가 있을 것이고, 이를 사용하기 위해서는 각각 개별 검토가 필요하다. 
+- FOSS 개발자들은 상업적 non-FOSS License를 설명하기 위해 "Proprietary License"라는 용어를 사용하기도 한다. 
 
 
 ## Other Licensing Situations
@@ -92,12 +92,12 @@ _"You must cause any work that you distribute or publish, that in whole or in pa
 - 개발자들은 자신의 Software에 대해 Public Domain에 해당한다는 선언을 포함할 수 있다. 
   - 예 : "All of the code and documentation in this software has been dedicated to the public domain by the authors."
   - Public Domain 선언이 FOSS License와 같은 것은 아니다. 
-- 이러한 Public Domain 선언의 법적 집행 가능성은 FOSS Community 내에서 논란이 있는 부분이기도 하다. 
+- 이러한 Public Domain 선언의 법적 집행 가능성은 FOSS Community 내에서 논쟁이 있는 부분이기도 하다. 
 - 종종 Public Domain 선언이 보증 부인 등 다른 조항과 함께 사용될 수 있는데, 이 경우는 Software가 Public Domain 상태라기보다는 하나의 License 하에 있다고 볼 수 있다. 
 
 
 # License Compatibility
-- License compatibility is the process of ensuring that license terms do not conflict. If one license requires you to do something and another prohibits doing that, the licenses conflict and are not compatible [if the combination of the two software modules trigger the obligations under a license; for example,GPLv2 extends its obligations to "derivative works" and if a second software module is combined with a GPLv2 licensed module that is not a derivative work of the GPLv2 licensed module, the second software module is not subject to GPLv2.  The definition of "derivative work" is subject to different views in the FOSS community} 
+- License compatibility is the process of ensuring that license terms do not conflict. If one license requires you to do something and another prohibits doing that, the licenses conflict and are not compatible, if the combination of the two software modules trigger the obligations under a license; for example,GPLv2 extends its obligations to "derivative works" and if a second software module is combined with a GPLv2 licensed module that is not a derivative work of the GPLv2 licensed module, the second software module is not subject to GPLv2.  The definition of "derivative work" is subject to different views in the FOSS community} 
 - The Free Software Foundation provides the following example to illustrate a case of license compatibility:
 
 *A license p is compatible with a license q (or is q-compatible) if*
@@ -109,7 +109,10 @@ _"You must cause any work that you distribute or publish, that in whole or in pa
   - Reference: http://www.fsf.org/licensing/licenses/
 
 > License Compatibility
-- License Compatibility는 License 조항들이 충돌하지 않음을 확인하는 Process이다. 만약 한 License가 요구하는 내용을 다른 License가 금지한다면 이 License들은 충돌하는 것이고 호환되지 않는다. [두 Software module의 결합으로 인해 한 License의 의무사항을 따라야 하는 상황에 해당함; 예를 들어, GPL-2.0은 의무사항을 "파생저작물"에 대해서도 지킬 것을 요구한다. 만약 두 번째 Software module이 GPL-2.0 licensed module과 결합...? <원문 유효성 확인 필요>
+- License Compatibility는 License 조항들이 충돌하지 않음을 보장하는 Process이다. 
+  - 만약 한 License가 요구하는 내용을 다른 License가 금지한다면, 두 개의 Software 모듈의 결합이 License 의무 사항을 유발할 경우, 이 License들은 충돌하는 것이고 호환되지 않는다.
+- 한 예로 GPLv2는 “파생저작물”에도 의무 사항을 부여한다. 
+  - 만약, GPLv2 Licensed 모듈과 결합한 두번째 Software 모듈이 GPLv2 Licensed 모듈의 파생저작물이 아니라면, 이 두번째 Software 모듈은 GPLv2의 대상이 아니다. “파생저작물”의 정의는 FOSS Community의 관점에 따라 다르다.
 - Free Software Foundation은 License Compatibility를 설명하기 위해 다음 사례를 제공한다. 
 
 >   *License p로 배포된 저작물은 q의 조항으로도 배포할 수 있다면, License p는 License q와 호환 (혹은 q-compatible)된다.*
@@ -127,11 +130,11 @@ Notices, such as text in comments in file headers, often provide authorship and 
 - Modification notice – a notice that you have made modifications to the source code of a file, such as adding your copyright notice to the top of the file. 
 
 > 고지 (Notice)
-파일 상단의 Text 주석과 같은 고지는 주로 저작권과 License 정보를 제공한다. FOSS License는 또한 저작자 정보의 제공이나 수정 내용을 포함시키기 위해 소스 코드 혹은 문서 내에 고지를 포함할 것을 요구하기도 한다. 
-- 저작권 고지 - 저작권자가 누구인지를 알리기 위해 저작물의 사본에 포함하는 식별자. 예: Copyright © A. Person (2016).
+파일 상단의 Text 주석과 같은 고지는 주로 작성자 및 License 정보를 제공한다. FOSS License는 또한 저작자 정보의 제공이나 수정 내용을 포함시키기 위해 소스 코드 혹은 문서 내에 고지를 포함할 것을 요구하기도 한다. 
+- 저작권 고지 - 저작권자가 누구인지를 알리기 위해 저작물의 사본에 붙이는 식별자. 예: Copyright © A. Person (2016).
 - License 고지 - 제품에 포함된 FOSS의 License 조항과 조건을 알리기 위한 고지
 - 귀속정보 (Attribution) 고지 - 제품에 포함된 FOSS 원저작자의 신원을 나타내기 위해 제품 배포 시 포함하는 고지
-- 수정사항 고지 - 파일 상단에 새로운 저작권 표시를 추가하는 등, 파일의 소스 코드를 수정하였음을 알리는 고지
+- 수정 내용 고지 - 파일 상단에 새로운 저작권 표시를 추가하는 등, 파일의 소스 코드를 수정하였음을 알리는 고지
 
 
 ## Multi-Licensing
@@ -141,8 +144,8 @@ Notices, such as text in comments in file headers, often provide authorship and 
 
 > Multi License
 - Multi License란 둘 이상의 다른 조항과 조건으로 Software를 배포하는 경우를 말한다.
-  - 즉, Software가 "Dual License"인 경우, 수신자는 두 License 중 하나를 선택하여 Software를 사용하거나 배포할 수 있다. 
-- 주의 : Licensor가 두 개 이상의 License를 부과하는 상황과 혼동해서는 안된다. 이런 경우는 모든 License를 준수해야 한다. 
+  - 예를 들어, Software가 "Dual License"인 경우, 수신자는 두 License 중 하나를 선택하여 Software를 사용하거나 배포할 수 있다. 
+- 참고 : Licensor가 두 개 이상의 License를 부과하는 상황과 혼동해서는 안된다. 이런 경우는 모든 License를 준수해야 한다. 
 
 ## Check Your Understanding
 - What is a FOSS license?
@@ -154,10 +157,10 @@ Notices, such as text in comments in file headers, often provide authorship and 
 - What is a multi-license?
 
 > Check Your Understanding
-- FOSS License란 무엇입니까?
-- Permissive FOSS License의 주요 의무 사항은 무엇입니까?
-- Permissive FOSS License에는 무엇이 있습니까?
-- License 상호주의는 무엇을 의미합니까?
-- Copyleft-style License에는 무엇이 있습니까?
-- Freeware와 Shareware를 FOSS로 간주합니까?
-- Multi-License란 무엇입니까?
+- FOSS License란 무엇인가?
+- Permissive FOSS License의 주요 의무 사항은 무엇인가?
+- Permissive FOSS License에는 무엇이 있는가?
+- License 상호주의는 무엇을 의미하는가?
+- Copyleft-style License에는 무엇이 있는가?
+- Freeware와 Shareware를 FOSS로 간주되는가?
+- Multi-License란 무엇인가?
