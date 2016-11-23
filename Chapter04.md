@@ -21,7 +21,8 @@ When analyzing FOSS usage, collect information about the identity of the FOSS co
   - Copyright notices, attribution, source code for vendor modifications if needed to satisfy license obligations
 
 > 어떤 정보를 수집해야 하나?
-FOSS의 사용법을 분석할 때, FOSS Component의 정체, 출처 및 어떤 방법으로 사용될 것인지에 대한 정보를 수집하라. 여기에는 다음 사항이 포함될 수 있다. 
+
+> FOSS의 사용법을 분석할 때, FOSS Component의 정체, 출처 및 어떤 방법으로 사용될 것인지에 대한 정보를 수집한다. 여기에는 다음 사항이 포함될 수 있다. 
 - Package 이름
 - Version
 - 원본 Download URL
@@ -47,7 +48,7 @@ Common scenarios include:
 - Modification
 - Translation
 
-> Component를 어떻게 사용할 것인지?
+> Component를 어떻게 사용할 것인가?
 
 > 일반적인 시나리오는 다음과 같다: 
 - 통합 (Incorporation)
