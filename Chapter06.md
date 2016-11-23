@@ -64,19 +64,21 @@ The process may begin with one of these events:
   - An audit is requested to scan or review the source code
 
 
-> FOSS 사용을 확인하고 추적
+> FOSS 사용의 확인 및 추적
+
+> 모든 Sourced에 대해 FOSS를 확인하고 추적한다
 - 전제 조건 : Process는 다음 중 하나의 이벤트로 시작할 수 있다. 
   - 개발팀에서 FOSS Component의 검토 혹은 외부 배포 요청
   - 적절한 승인 없이 사용된 FOSS의 발견
   - 3rd Party Software의 일부로 사용된 FOSS의 발견
 - 단계 : 
   - 접수된 요청 기록
-  - 전체 Platform에 대한 검사(Scan)가 수행됟 수 있음
+  - 전체 Platform에 대한 Scan을 수행할 수 있음
   - 3rd Party 제공 Software에 대한 실사 (Due Diligence)
   - 접수된 요청 없이 repository에 추가된 모든 FOSS Component에 대해 인식 및 검토
 - 결과 : 
   - FOSS에 대한 Compliance 기록 생성 (혹은 갱신)
-  - Source Code를 검사(Scan)하거나 검토하도록 감사(audit) 요청
+  - Source Code를 Scan하거나 Review하도록 Audit 요청
 
 ## Auditing Source Code
 ![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/auditing.png)
@@ -102,11 +104,11 @@ Identify FOSS components and their origin and licenses
   - 개발팀에서 제공한 기록이 없을 경우, 발견되는 FOSS Component로 기록을 만들 수 있다. 
 - 단계:
   - Audit을 위한 Source Code 식별
-  - Source Code Scan을 위해 Software Tool 사용 가능하다.
-  - Audit 혹은 Scan을 통해 발견된 부분은 검토 및 Code의 출처에 대해 적절히 확인되어야 한다.
+  - Source Code Scan을 위해 Software Tool의 사용이 가능하다.
+  - Audit 혹은 Scan을 통해 발견된 부분은 Code의 적절한 출처에 대해 검토 및 확인되어야 한다.
   - Audit 혹은 Scan은 Software 개발 및 Release Lifecycle에 따라 반복적으로 수행되어야 한다.
 - 결과:
-  - Source Code의 출처와 License를 확인한 Audit Report
+  - Source Code의 출처와 License를 식별한 Audit Report
 
 ## Resolving Issues
 ![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/resolving.png)
@@ -124,12 +126,12 @@ Resolve all issues identified in the audit
 
 > Resolving Issues
 
-> Audit에서 확인한 모든 이슈들을 해결한다. 
+> Audit을 통해 확인한 모든 이슈들을 해결한다. 
 - 전제조건:
-  - Source Code Audit 혹은 Scan은 완료하였다. 
-  - Audit Report는 Source Code의 출처 및 License를 확인하여 제공하고, 추가 조사가 필요한 file에 대해 체크하였다. 
+  - Source Code Audit 혹은 Scan을 완료하였다. 
+  - Audit Report는 Source Code의 출처 및 License를 식별하고, 추가 조사가 필요한 file에 대해 표시하였다. 
 - 단계:
-  - FOSS 정책과 충돌되는 Audit Report내의 이슈를 해결하기 위해 적절한 engineer에게 피드백을 제공한다. 
+  - FOSS 정책과 충돌하는 Audit Report내의 이슈 해결을 위해 적합한 Engineer에게 피드백을 제공한다. 
   - Engineer와 상의하여 문제가 해결되었는지를 확인한다. 
 - 결과 : 
   - Report내 각 체크된 파일의 해결 및 충돌되는 License의 해결
@@ -153,19 +155,19 @@ Review the audit report and confirm any discovered issues are resolved
   - Preserve audit report findings and mark resolved issues as ready for the next step (i.e. Approval)
 
 
-> Performing Reviews
+> Review 수행
 
 > Audit Report를 검토하고 발견된 이슈들이 해결되었는지를 확인한다. 
 - 전제조건:
   - Source Code가 Audit되었다. 
   - 모든 확인된 이슈들은 해결되었다. 
 - 단계:
-  - 검토하는 직원에게 적절한 권한 수준을 포함시킨다. 
+  - 검토하는 직원에게 적절한 수준의 권한 을 제공한다. 
   - Audit된 Source Code에 대해 FOSS Review를 수행하고, Software Architecture 및 FOSS 사용을 검토한다. (다음 Slide의 template참고)
   - FOSS License들의 의무 사항을 확인한다. 
 - 결과: 
   - Audit Report의 Software가 FOSS 정책에 순응하는지 확인한다. 
-  - Audit Report를 보존하고, 다음 단계 (즉, Approval)를 위한 준비로 해결된 이슈들을 표시한다. 
+  - Audit Report 결과를 보존하고, 다음 단계 (Approval) 를 위해 해결된 이슈들을 표시해둔다. 
 
 ## Architecture Review (Example Template)
 ![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/exampletemplate.png)
@@ -177,9 +179,9 @@ Review the audit report and confirm any discovered issues are resolved
 ![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/approval.png)
 
 > Approval
-- 이전 단계에서의 Software Audit 및 검토 결과에 따라 Software 사용이 승인될 수도, 되지 않을 수도 있다. 
-- 승인에는 승인된 FOSS Component의 Version, Component의 승인된 사용 모델 및 FOSS License에 따른 의무사항들이 명시되어야 한다. 
-- 승인은 적절한 권한 수준에서 이루어져야 한다. 
+- 이전 단계에서의 Software Audit 및 Review 결과에 따라 Software 사용이 승인될 수도, 되지 않을 수도 있다. 
+- 승인된 FOSS Component의 Version, 승인된 Component의 사용 모델 및 FOSS License에 따른 의무사항들이 명시되어야 한다. 
+- 승인은 적절한 수준의 권한에서 이루어져야 한다. 
 
 ## Registration / Approval Tracking
 - Once a FOSS component has been approved for usage in a product, it should be added to the software inventory for that product 
@@ -191,7 +193,7 @@ Review the audit report and confirm any discovered issues are resolved
 > Registration / Approval Tracking
 - FOSS Component가 제품에서의 사용이 승인되면, 해당 제품의 Software 목록표에 추가되어야 한다. 
 - 승인 및 이에 대한 조건은 Tracking System에 등록되어야 한다. 
-- Tracking System은 FOSS Component의 신규 version이거나, 새로운 사용 모델이 제안된 경우 신규 승인이 필요함을 명확히 해야 한다. 
+- Tracking System은 FOSS Component의 신규 version 혹은 새로운 사용 모델이 제안된 경우 새로 승인이 될 수 있도록 해야 한다. 
 
 ## Notices
 ![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/notices.png)
@@ -203,9 +205,9 @@ Review the audit report and confirm any discovered issues are resolved
 
 > Notice
 - Release하는 제품에 사용된 모든 FOSS에 대해 적절한 고지를 준비한다. 
-  - 모든 저작권 및 저작자 고지를 제공하기 위해 FOSS의 사용을 인정한다. 
-  - 제품의 최종 사용자에게 FOSS Source Code 사본을 어떻게 얻을 수 있는지 알린다 (예를 들어, GPL, LGPL과 같이 Source 공개가 필요한 경우). 
-  - 필요에 따라 제품에 포함된 FOSS Code에 대한 License Agreement의 전체 text를 복제한다. 
+  - 모든 저작권 및 저작자 고지를 제공하기 위해 FOSS의 사용을 표시한다. 
+  - 제품의 최종 사용자에게 FOSS Source Code 사본을 어떻게 얻을 수 있는지 알린다 (GPL, LGPL과 같이 Source 공개가 필요한 경우). 
+  - 필요에 따라 제품에 포함된 FOSS Code에 대한 License Agreement의 전체 text를 제공한다. 
 
 ## Pre-Distribution Verifications
 ![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/predistributions.png)
@@ -227,7 +229,7 @@ Verify that distributed software has been reviewed and approved
 
 > Pre-Distribution Verifications
 
-> 배포된 Software가 검토 및 승인되었는지 확인하라. 
+> 배포된 Software가 Review 및 승인되었는지 확인한다. 
 - 전제조건:
   - FOSS Component가 사용 승인 되었음
   - FOSS Component가 Release되는 Software의 목록표에 등록되었음
@@ -235,7 +237,10 @@ Verify that distributed software has been reviewed and approved
 - 단계: 
   - 배포할 FOSS Package들이 식별되고 승인되었는지 확인한다. 
   - 검토된 Source Code가 제품 내의 Binary와 일치하는지 확인한다. 
-  - 식별된 FOSS의 Source Code를 요청할 권리가 있음을 최종 소비자에게 알리기 위한 적절한 고지문이 모두 포함되었는지 확인한다. 
+  - 식별된 FOSS에 대해 Source Code 요청 권리가 있음을 최종 소비자에게 알리기 위한 적절한 고지문이 포함되었는지 확인한다. 
+- 결과: 
+  - 배포 Package에는 검토 승인된 Software만 포함한다.
+  - 적절한 고지 File을 포함한 "배포 준수 산출물 (Distributed Compliance Artifacts : OpenChain 스펙에 정의)"을 배포 Package 혹은 다른 형태로 전달될 수 있도록 포함한다. 
 
 ## Accompanying Source Code Distribution
 
