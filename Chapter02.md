@@ -7,7 +7,7 @@
 
 > FOSS License
 - FOSS(Free and Open Source Software) License는 일반적으로 수정 및 재배포를 허용하는 조건하에 Source Code를 공개한다.  
-- FOSS License는 고지 의무, Copyright 보존, 소스 코드 제공을 위한 약정서 제공과 같은 조건을 갖고 있기도 하다.  
+- FOSS License는 고지 의무, Copyright 보존, Source Code 제공을 위한 약정서 제공과 같은 조건을 갖고 있기도 하다.  
 - OSI (Open Source Initiative)는 OSD(Open Source Definition)를 정해놓고, 이에 부합하는 FOSS License를 승인해준다. OSI-approved FOSS License는 http://www.opensource.org/licenses/ 에서 확인할 수 있다. 
 
 
