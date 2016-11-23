@@ -20,7 +20,7 @@
 >1. Intellectual Property란?
 2. FOSS Licenses 소개
 3. FOSS Compliance 소개
-4. FOSS Review를 위한 핵심 Software 개념
-5. FOSS Review 수행
-6. End to End Compliance Management (Process )
+4. FOSS 검토를 위한 주요 Software 개념
+5. FOSS 검토 수행
+6. End to End Compliance Management (Process 예)
 7. Compliance 위험 회피 방법
