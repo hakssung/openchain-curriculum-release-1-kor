@@ -22,7 +22,7 @@ _Note: This process may also start when receiving FOSS-based software from outsi
 
 > FOSS Review 시작
 
-> FOSS Review Process는 Program/Product Manager, Engineer 및 FOSS와 관련하여 일하는 사람들이 접근할 수 있어야한다. 
+> FOSS Review Process는 Program/Product Manager, Engineer 및 FOSS와 관련하여 일하는 사람들이 Access 할 수 있어야 한다. 
 
 > _참고 : 이 Process는 외부 vendor로부터 FOSS-based Software를 제공받을 때도 시작할 수 있다._
 
@@ -35,7 +35,7 @@ A FOSS Review alerts and engages the various support groups that work together t
 - Specialists working with business interests, commercial licensing, export compliance, etc., who may be impacted by FOSS usage
 
 > FOSS Review Team
-FOSS Review는 FOSS의 사용을 지원, 안내, 조정 및 검토하기위해 협력하는 다양한 지원 그룹에 중요성을 알리고 참여시킨다. 
+FOSS Review 팀은 FOSS의 사용을 지원, 안내, 조정 및 검토하기 위해 협력하는 다양한 지원 그룹에 중요성을 알리고 참여시킨다.  이 팀은 다음을 포함할 수 있다. 
 - License 의무 사항을 식별하고 확인하는 법무팀
 - FOSS 사용을 식별하고 추적하는 것을 도와주는 Scanning 및 Tooling 지원팀
 - FOSS의 사용에 영향을 받을 수 있는, 사업 이익, 상용 License, 수출 Compliance 등을 담당하는 전문가
@@ -48,7 +48,7 @@ The FOSS Review team should assess the information it has gathered before provid
 - Does the declared license match what is in the code files?
 - Does the license truly permit the proposed use of the software?  
 
-> 제안된 FOSS 사용법의 분석
+> 제안된 FOSS 사용 분석
 
 > FOSS Review Team은 가이드를 제공하기 전에 다음과 같은 이슈를 포함하여 수집한 정보를 평가해야 한다.
 - 완전성, 일관성, 정확성 (감춰진 FOSS의 사용을 조사하는데 Code Scanning Tool이 사용될 수 있음)
@@ -60,7 +60,7 @@ The FOSS Review team should assess the information it has gathered before provid
 
 Working through the FOSS Review process is interactive.  The work crosses disciplines, including engineering, business and legal teams, and may require in follow-up discussion so that all parties understand the underlying issues. Ultimately, the process should result in clear guidance on FOSS usage.
 
-> FOSS Review를 통한 업무
+> FOSS Review 작업
 
 > FOSS Review Process를 통한 업무는 상호작용을 한다. 이 업무는 engineering, 사업 및 법무팀을 포함한 분야를 넘나들며, 모든 당사자가 근본적인 이슈를 이해할 수 있도록 follow-up 논의를 요구할 수 있다. 궁극적으로 이 Process는 FOSS 사용에 대한 명확한 지침을 제공해야 한다. 
 
