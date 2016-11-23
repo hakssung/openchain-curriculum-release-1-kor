@@ -147,7 +147,7 @@ For example, a tool may inject portions of its own code into output of the tool.
 
 > 개발 Tool
 
-> 개발 Tool는 내부적으로 이러한 동작 중 일부를 수행할 수 있다. 
+> 개발 Tool은 내부적으로 이러한 동작 중 일부를 수행할 수 있다. 
 
 > 예를 들어, Tool는 Tool의 산출물내에 자체 Code의 일부를 추가시킬 수도 있다. 
 
