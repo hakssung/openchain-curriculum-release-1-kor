@@ -181,7 +181,7 @@ For example, a tool may inject portions of its own code into output of the tool.
 - What factors are important in assessing a distribution?
 
 > Check Your Understanding
-- Software가 어떻게 License되었는지에 대해 이해하는데 도움이 되는 정보는 무엇인가? 
+- Software의 License가 무엇인지 이해하는데 도움이 되는 정보는 무엇인가? 
 - 누가 Software에 License를 부여하는지 확인하기 위해 도움이 되는 정보는 무엇인가?
 - 통합 (incorporation)이란?
 - 수정 (modification)이란?
