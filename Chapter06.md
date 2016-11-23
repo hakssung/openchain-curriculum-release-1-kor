@@ -7,9 +7,9 @@
 ![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/introduction.png)
 
 > 소개
-- Compliance Management는 제품 (혹은 OpenChain Specification 내 "Supplied Software") 에 사용된 FOSS의 유입 및 배포를 제어하는 일련의 활동으로 구성된다. 
-- Compliance를 위한 기업 실사(due diligence)의 결과는 Supplied Software내 사용된 모든 FOSS의 식별과 모든 FOSS License 의무 사항이 충족되었거나 충족될 것이라고 확인하는 것이다. 
-- 이 장에서는 이러한 Process의 예를 제공하여 내부 Process를 구축하거나 개선하는데 도움이 되고자 한다. 
+- Compliance Management는 제품 (혹은 OpenChain Specification 에서의 "Supplied Software") 에 사용된 FOSS의 유입 및 배포를 제어하는 일련의 활동으로 구성된다. 
+- Compliance를 위한 기업 실사(due diligence)의 결과는 Supplied Software내 사용된 모든 FOSS를 식별하고, 모든 FOSS License 의무 사항이 충족된다고 보장하는 것이다. 
+- 이 장에서는 이러한 Process의 예를 제공하여 내부 Process를 구축하거나 개선하기 위한 도움을 제공한다. 
 
 ## Process Overview
 ![](https://github.com/hakssung/openchain-curriculum-release-1-kor/blob/master/images/processoverview.png)
@@ -29,16 +29,16 @@
 Example of Compliance Management End-to-End Process
 
 > Process Overview
-- 검토를 위한 FOSS Component 식별
-- Source Code 스캔 및 검사
+- Review를 위한 FOSS Component 식별
+- Source Code Scan 및 Audit
   - Source Code 출처 및 License 확인
-- 회사 FOSS 정책에 맞게 검사 이슈 해결
+- 회사 FOSS 정책에 맞게 Audit 이슈 해결
 - FOSS Software Component의 Compliance 기록 검토 및 승인
 - 제품별, Release별 목록표 (inventory) 내 승인된 Software/Version 기록
 - 공개를 위한 고지문 편집
 - 배포를 위한 Source Code Package 확인
   - 적절한 고지문이 제공되는지 확인
-- 확인된 발행물 게시
+- 확인된 산출물 게시
 - Source Code, 고지문 공개 및 약정서 제공
 
 > Compliance Management End-to-End Process 의 예
