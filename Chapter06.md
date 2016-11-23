@@ -256,16 +256,16 @@ Provide accompanying source code as required
 - Outcome: 
   - Obligations to provide accompanying source code are met
 
-> Accompanying Source Code Distribution
+> 동반하는 Source Code Distribution
 
-> 요구에따라 동봉하는 Source Code 제공
+> 요구에 따라 동반하는 Source Code 제공
 - 전제조건:
-  - 모든 사전 배포 확인 사항이 완료되었으며, 이슈는 발견되지 않음
+  - 배포 전 모든 사항이 확인 완료되었으며, 이슈는 발견되지 않음
 - 단계:
-  - 동봉하는 Source Code를 관련된 Build Tool 및 문서와 함께 제공한다 (예: 배포 사이트에 upload하거나 배포 Package내에 포함시키는 방법으로 제공)
-  - 동봉하는 Source Code는 해당하는 제품 및 Version에 대해 라벨(label)로 표시하여 식별되게 한다. 
+  - 동반하는 Source Code를 관련 Build Tool 및 문서와 함께 제공한다 (예: 배포 사이트에 upload하거나 배포 Package내에 포함시키는 방법으로 제공)
+  - 동반하는 Source Code는 제품 및 Version을 라벨(label)로 표시하여 식별되게 한다. 
 - 결과:
-  - 동봉하는 Source Code를 제공하기 위한 의무 사항이 충족된다. 
+  - 동반하는 Source Code를 제공하기 위한 의무 사항을 충족한다. 
 
 
 ## Final Verifications
@@ -287,14 +287,14 @@ Validate compliance with license obligations
 
 >  Final Verifications
 
-> License 의무사항 준수 여부를 확인한다. 
+> License 의무사항 준수 여부를 인증한다. 
 - 전제조건:
-  - 동봉하는 Source Code가 필요에 따라 제공된다. 
-  - 적절한 고지문이 준비 되었다. 
+  - 동반하는 Source Code를 필요에 따라 제공한다. 
+  - 적절한 고지문을 준비 하였다. 
 - 단계:
-  - 동봉하는 Source Code가 (필요한 경우) 올바르게 upload되거나 배포되었는지 확인한다. 
+  - 동반하는 Source Code가 (필요한 경우) 올바르게 upload되거나 배포되었는지 확인한다. 
   - Upload 혹은 배포된 Source Code가 승인된 version과 동일한지 확인한다. 
-  - 고지문이 적절하게 게시되었는지와 사용 가능한지 확인한다. 
+  - 고지문이 적절하게 게시 되었는지와 접근 가능한지 확인한다. 
   - 이외 다른 의무 사항들이 준수되었는지 확인한다. 
 - 결과: 
   - 배포되는 Compliance 산출물들이 적절히 제공되었는지 확인한다. 
@@ -309,8 +309,8 @@ Validate compliance with license obligations
 
 > Check Your Understanding
 - Compliance를 위한 기업 실사(Due Diligence)를 위해 필요한 것은 무엇인가? (high level에서의 단계를 설명하라)
-- Compliance Management의 일부 중 해결해야 할 이슈 유형은 무엇인가?
-- Audit 결과를 검토하는데 누가 참여해야 하는가? 
+- Compliance Management의 일부로 해결해야 할 이슈 유형은 무엇인가?
+- Audit 결과 검토에 누가 참여해야 하는가? 
 - Architecture 검토는 무엇을 확인하기 위해서인가?
 - FOSS 고지문에는 무엇이 포함되어야 하는가?
-- Copyleft License하의 Code를 배포하기 위해서는 무엇이 필요한가? 
+- Copyleft License하의 Code는 무엇이 배포되어야 하는가? 
